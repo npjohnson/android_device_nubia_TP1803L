@@ -1,0 +1,3 @@
+on fs
+    wait /dev/block/platform/1d84000.ufshc
+    symlink /dev/block/platform/1d84000.ufshc /dev/block/bootdevice
