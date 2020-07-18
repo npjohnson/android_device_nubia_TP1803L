@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from TP1803 device
+$(call inherit-product, device/nubia/TP1803L/device-lineage.mk)
 $(call inherit-product, device/nubia/TP1803/device.mk)
 
 PRODUCT_BRAND := Nubia
