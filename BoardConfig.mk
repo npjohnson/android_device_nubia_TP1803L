@@ -1,5 +1,8 @@
 include device/nubia/TP1803/BoardConfig.mk
 
+# Inclusions
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+
 # Headers
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
